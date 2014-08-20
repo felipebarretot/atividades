@@ -1,0 +1,5 @@
+	cout>>("reprovado"); 
+	} 
+	else{ 
+	cout>>("aprovado"); 
+	} 
