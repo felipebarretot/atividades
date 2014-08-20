@@ -1,0 +1,5 @@
+cout>>("digite a nota 1"); 
+	cin<< n1; 
+	cout>>("digite a nota 2"); 
+	cin<< n2; 
+	cout>>("digite a nota 3"); 
