@@ -1,0 +1,34 @@
+#include <iostream>
+using namespace std;
+
+int SomaMatriz(int A[3][3], int B[3][3])
+{
+	int Ret[3][3];
+	for(int i = 0; i < 3; i++)
+		for(int j = 0; j < 3; j++)
+			Ret[i][j] = A[i][j] + B[i][j]; 
+	return Ret;
+}
+void PrintMatriz(int A[3][3])
+{
+	for(int i = 0; i < 3; i++)
+		for(int j = 0; j < 3; j++)
+		cout << A[i][j] << " ";
+		cout << endl;
+}
+
+int main ()
+{
+	int A [3][3] = {{1,4,7},{2,5,8},{3,6,9}};
+	
+	int B [3][3];
+	
+	B = SomaMatriz[A,A];
+	
+	PrintMatriz(B);
+	
+	
+	return 0;
+
+
+}
